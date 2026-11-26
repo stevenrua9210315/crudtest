@@ -6,4 +6,6 @@ import com.project.test.srj.model.Client;
 public interface ClientService {
 
     Client create(ClientRequest request);
+
+    void deleteById(Long id);
 }
